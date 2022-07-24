@@ -1,0 +1,29 @@
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* border-spacing: 3px; */
+    padding: 3px;
+}
+caption{
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, serif;
+    font-size: 35px;
+    line-height: 60px;
+}
+
+th{
+    color: #f1faee;
+    background-color: #3AAFB9;
+} 
+/* reglones pares */
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+/* Reglones Impares */
+tr:nth-child(odd){
+    background-color: #a8dadc;
+}
