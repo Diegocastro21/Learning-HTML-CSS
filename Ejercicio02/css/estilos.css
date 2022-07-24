@@ -1,0 +1,19 @@
+h1{
+    color: #64e9ee;
+    text-align: center;
+}
+p{
+    color:#001011;
+    background-color: #97C8EB;
+    padding: 15px;
+    border: 10px solid #3aafb9;
+    /* margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px; */
+   
+    /* margin: 40px 10px 20px 10px; */
+
+    margin:auto 50px;
+    text-align: center;
+}
