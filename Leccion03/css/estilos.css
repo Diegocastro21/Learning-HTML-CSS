@@ -1,0 +1,64 @@
+h1{
+    color: #560bad;
+}
+
+/* separando por coma se puede aplicar los mismos
+estilos a varios elementos
+ */
+a:link, a:visited{
+    background-color: #b5179e;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active{
+    background-color: #f72585;
+}
+
+
+
+
+
+
+
+
+
+/* 
+en lahoja de estilos de abren llaves y se le asigna sus valores
+en este caso el color 
+h1{
+    color: #093A3E;
+}
+
+en este caso para el link por default que aparece en blanco se coje
+la propiedad del link ( a ) : link para que al momento de aprecer por primera
+vez este aprezca con los valores que se le asignan 
+a:link {
+    color: #3AAFB9;
+    text-decoration: none;
+}
+
+en este caso cuando ya esta visitado el link
+a:visited{
+    color: #97C8EB;
+    text-decoration: none;
+}
+
+en este caso hover es para cuando pasen el mouse por encima este 
+aparezca con los valores definidos
+a:hover{
+    color: aquamarine;
+    el under line con text-decoration es para el subreayado
+    text-decoration: underline;
+}
+
+el active es para cuendo se presione muestre los valores definidos
+
+a:active{
+    color: red;
+    text-decoration: underline;
+} 
+*/
