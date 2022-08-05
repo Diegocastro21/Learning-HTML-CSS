@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset style="width: 70;"><legend>Datos:</legend>
+        <table border="1" style="border-style: solid; border-color: blue;">
+        <tr>
+            <td>Cedula:</td>
+            <td>><input type="number" name="cedula" required placeholder="Solo Numeros"></td>
+
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td>><input type="password" name="clave" required ></td>
+            
+        </tr>
+        <tr>
+            <td>Nombre:</td>
+            <td>><input type="text" name="nombre" required placeholder="Ingresa el nombre"></td>
+            
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>><input type="email" name="email" required placeholder="Ingresa tu email"></td>
+            
+        </tr>
+
+        <tr>
+            <td>
+                Hobbies:
+            </td>
+            <td>Programar:<input type="checkbox" name="programar" value="p">
+                Leer:<input type="checkbox" name="leer" value="l">
+                Cine:<input type="checkbox" name="cine" value="c">
+                Futbol:<input type="checkbox" name="deporte" value="f">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Genero:
+            </td>
+            <td>
+                Masculino:<input type="radio" name="genero" value="M">
+                Femenino:<input type="radio" name="genero" value="F">
+            </td>
+        </tr>
+        <tr>
+            <td>Nacionalidad:</td>
+            <td>
+                <select name="pais">
+                    <option value="col">Colombia</option>
+                    <option value="ven">Venezuela</option>
+                    <option value="chi">Chile</option>
+                    <option value="pa">Panama</option>
+                    <option value="arg">Argentina</option>
+                    <option value="pe">Peru</option>
+                    <option value="ecu">Ecuador</option>
+                    <option value="bra">Brasil</option>
+                    <option value="bol">Bolivia</option>
+                </select>
+            </td>
+            <tr>
+                <td>Idioma:</td>
+            <td>
+                <select name="Idioma" size="5" multiple>
+                    <option value="en">Colombia</option>
+                    <option value="es">Español</option>
+                    <option value="fra">Frances</option>
+                    <option value="po">Portugues</option>
+                    <option value="ch">Chino</option>
+                    <option value="it">italiano</option>
+                    <option value="ru">Ruso</option>
+                    <option value="ja">Japones</option>
+                    <option value="al">Aleman</option>
+                </select>
+            </td>
+            </tr>
+        </tr>
+        <tr>
+            <td>Color Favorito:</td>
+            <td><input type="color" name="color" value="blue"></td>
+        </tr>
+        <tr>
+            <td>Direccion:</td>
+            <td><textarea name="direccion">Digite su direccion</textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Estatura</td>
+            <td><input type="range" name="estatura" min="1" max="190"></td>
+
+        </tr>
+        <tr>
+            <td>Fecha Nacimiento:</td>
+            <td><input type="date" name="nacimiento"></td>
+        </tr>
+        <tr>
+            <td>Foto:</td>
+            <td><input type="file" name="foto"></td>
+        </tr>
+        <tr>
+        <td>Su sitio web:</td>
+        <td><input type="url" name="pagina"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="OK"></td>
+            <td><input type="reset" value="Limpiar"></td>
+        </tr>
+        </table>
+        </fieldset>
+
+    </form>
+</body>
+</html>
